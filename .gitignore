@@ -1,0 +1,21 @@
+# 빌드 산출물
+.gradle/
+build/
+out/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# 민감정보 - 커밋 금지
+local.properties
+secrets.properties
+*.secret
+.env
+
+# 로컬 실행 상태 파일
+state.json
+
+# 로그
+*.log
